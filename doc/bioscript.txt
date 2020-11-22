@@ -1,0 +1,38 @@
+BioScript V1.91.0
+
+Utility to create custom cut-scenes, random events, enemy and door placement, etc.,
+for use with all versions of the following video games:
+
+Bio/RE 1.5
+Bio Hazard 2
+Resident Evil 2
+
+
+FEATURES:
+Disassembly to editable C Source and compilation to SCD binary.
+
+Optimized to disassemble or compile 30+ scripts in about 1 second.
+
+Disassembly and compilation of about 150 opcode instructions.
+
+'Drag & Drop' - 'drag' multiples of files onto the title bar and 'drop'.
+
+
+TODO:
+Document and implement all unknown opcodes (only a few left) - a /* WIP */ comment
+will appear for unsupported opcodes.
+
+Create a header, to be used with Visual Studio (for Intellisense).
+
+Document the executable's internal arrays, for Cmp() functionality, etc.
+
+
+UPDATES:
+	V1.9.1 - Multiple bugfixes, preliminary if/else do/while support (Bio2, only)
+	V1.9.0 - Upgraded for Operating System compatibility, Bio 1.5 version support
+	V0.8.7.1 - Upgraded for Operating System compatibility
+	V0.8.7 - I/O optimizations, updated instruction syntax, more opcodes removed from WIP
+	V0.8.4 - Many bugfixes, optimizations, support for multi-line syntax
+	V0.8.0 - Comment handler, formatted output, more opcodes removed from WIP
+	V0.7.6 - Bugfixes for disassembly, multiple opcodes, misc.
+	V0.7.5 - Initial release

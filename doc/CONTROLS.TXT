@@ -1,0 +1,59 @@
+
+
+CONTROLS :: 2D MODE
+------------------------------------------------------------------------
+These controls are not available when "Generic Cursor" is active!
+------------------------------------------------------------------------
+
+PG UP			Zoom In
+PG DOWN			Zoom Out
+Left-Click (Mouse)	Zoom In
+Right-Click (Mouse)	Zoom Out
+Wheel Scroll (Mouse)	Move Map UP and/or DOWN
+UP,DOWN,LEFT,RIGHT	Move Map
+
+
+CONTROLS :: 3D MODE
+------------------------------------------------------------------------
+These controls are not available when "Generic Cursor" is active!
+------------------------------------------------------------------------
+
+LEFT			Previous Camera
+RIGHT			Next Camera
+
+
+CONTROLS :: GENERIC CURSOR MODE
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+PG UP			Cursor Width Increase
+PG DOWN			Cursor Width Decrease
+EQUAL/PLUS		Cursor Depth Decrease
+UNDERSCORE/MINUS	Cursor Depth Decrease
+Wheel Scroll (Mouse)	Move Cursor UP and/or DOWN
+UP,DOWN,LEFT,RIGHT	Move Cursor
+
+
+CONTROLS :: MODEL MODE
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+A			Move Left on X-Axis
+D			Move Right on X-Axis
+S			Move Down on Z-Axis
+W			Move Up on Z-Axis
+B			Rotate Left
+V			Rotate Right
+F			Rotate Up/Left
+G			Rotate Up/Right
+Wheel Scroll (Mouse)	Move Cursor UP and/or DOWN
+Left-Click (Mouse)	Move Left on X-Axis
+Right-Click (Mouse)	Move Right on X-Axis
+
+
+CONTROLS :: MOVE ENTIRE AREA, MOVE ZONE and MOVE COLLISION
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+UP,DOWN,LEFT,RIGHT	Move Area/Zone/Collision
+Wheel Scroll (Mouse)	Move Area/Zone/Collision UP or DOWN

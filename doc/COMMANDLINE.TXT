@@ -1,0 +1,179 @@
+
+
+COMMANDLINE
+------------------------------------------------------------------------
+Commands are not case-sensitive!
+------------------------------------------------------------------------
+
+filedate <Y> <M> <D> <H> <M> <S> <M>		Set all date times of a file or folder
+						Args: Year, Month, Day, Hour, Minure, Second, Millisecond
+						Example: filedate 1998 7 21 3 43 42 00 "C:\\FILE.DAT"
+						Example: filedate 1998 7 21 3 43 42 00 "C:\\FOLDER"
+
+bsarchive <DIRECTORY>				Create a BSS.CDX file
+						Example: bsarchive "C:\\New Folder"
+
+doorarchive <DIRECTORY>				Create a DOOR.CDX file
+						Example: doorarchive "C:\\New Folder"
+
+armsarchive <DIRECTORY>				Create a SNDARMS.CDX file
+						Example: armsarchive "C:\\New Folder"
+
+corearchive <DIRECTORY>				Create a SNDCORE.CDX file
+						Example: corearchive "C:\\New Folder"
+
+dataarchive <DIRECTORY>				Create a DATA.CDX file
+						Example: dataarchive "C:\\New Folder"
+
+ssbss <BSS> <DIRECTORY>				Extract images from BSS file (Sega Saturn)
+						Example: ssbss room100.bss "C:\\room100"
+
+createbss <COUNT> <DIRECTORY>			Create a BSS file
+						Example: createbss 16 "C:\\BS Files"
+
+bsstbl <FILE>					Create size table assembly file
+						Example: bsstbl 16 "C:\\BS Files\\ROOM100.BSS"
+
+disbss <FILE>					Disassemble a BSS file
+						Example: disbss "C:\\BS Files\\ROOM100.BSS"
+
+asmbss <FILE>					Assemble a previously disassembled BSS file
+						Example: asmbss "C:\\BS Files\\ROOM100\\ROOM100.INI"
+
+disbssbh1 <FILE>				Disassemble a BSS file (BioHazard 1/Resident Evil 1)
+						Example: disbssbh1 "C:\\BS Files\\ROOM100.BSS"
+
+bh1bh2rdt <FILE>				Convert a Bio1 RDT to Bio2 format
+						Example: bh1bh2rdt "C:\\RDT Files\\ROOM1000.RDT"
+
+buildcd <FILELIST> <TEST> <SUM>			Update a PSone game executable for disc creation
+						Example: buildcd "C:\\list.txt" 0 0
+						Example: buildcd "C:\\list.txt" 1 1
+
+psexeram <FILE>					Dump RAM of a PSone game executable
+						Example: psexeram "C:\\GAME.EXE"
+
+exewrite <EXE> <ADDRESS> <FILE>			Write data to a PSone game executable
+						Example: exewrite "C:\\GAME.EXE" 0x80010000 "C:\\IN.FILE"
+
+exeread <ADDRESS> <SIZE> <EXE> <FILE>		Read data from a PSone game executable
+						Example: exeread 0x80010000 0x100 "C:\\GAME.EXE" "C:\\OUT.FILE"
+
+symparse <FILE>					Parse contents of SYM file
+						Example: symparse "C:\\MAIN.SYM"
+
+spriteone <FILE>				Convert Bio1 cam sprite to Bio2 format
+						Example: spriteone "C:\\R100.PRI"
+
+sprite15 <FILE>					Convert Bio1.5 cam sprite to Bio2 format
+						Example: spriteone "C:\\R100.PRI"
+
+disarc <FILE>					Disassemble contents of Bio0/Zero ARC file
+						Example: disarc "C:\\FILE.ARC"
+
+dishsb <FILE>					Disassemble contents of Bio1 HSB file
+						Example: dishsb "C:\\MUSIC.HSB"
+
+dmyfile <SIZE> <FILE>				Create a dummy file
+						Example: dmyfile 348 "C:\\FILE.BIN"
+
+align <SIZE> <FILE>				Byte-align file
+						Example: align 2048 "C:\\FILE.BIN"
+
+rc4 <STRLEN> <STRING> <IN> <OUT>		Encrypt file using string
+						Example: rc4 6 "CAPCOM" "C:\\IN.BIN" "C:\\OUT.BIN"
+
+asmtim <CONFIG> <OUT>				Assemble TIM archive
+						Example: asmtim "C:\\TEXTURE.INI" "C:\\TEXTURE.BIN"
+
+distim <FILE> <SECTOR>				distim TIM archive
+						Example: distim "C:\\TEXTURE.INI" 2048
+
+asmbgm <CONFIG> <FILE>				Assemble contents of Bio2 BGM file
+						Example: asmbgm "C:\\MAIN00.INI" "C:\\MAIN00.BGM"
+
+disbgm <FILE>					Diassemble contents of Bio2 BGM file
+						Example: disbgm "C:\\MAIN00.BGM"
+
+disbgmex <FILE>					Diassemble contents of Bio3 BGM file
+						Example: disbgmex "C:\\MAIN00.BGM"
+
+asmdie <CONFIG> <FILE>				Assemble contents of Bio2 DIE file
+						Example: asmdie "C:\\DIE00.INI" "C:\\DIE00.DIE"
+
+disdie <FILE>					Diassemble contents of Bio2 DIE file
+						Example: disdie "C:\\DIE00.DIE"
+
+asmdo2 <CONFIG> <FILE>				Assemble contents of Bio2 DO2 file
+						Example: asmdo2 "C:\\DOOR00.INI" "C:\\DOOR00.DO2"
+
+disdo2 <FILE>					Diassemble contents of Bio2 DO2 file
+						Example: disdo2 "C:\\DOOR00.DO2"
+
+asmemd <CONFIG> <FILE>				Assemble contents of Bio2 EMD file
+						Example: asmemd "C:\\EM00.INI" "C:\\EM00.EMD"
+
+disemd <FILE>					Diassemble contents of Bio2 EMD file
+						Example: disemd "C:\\EM00.EMD"
+
+asmems <CONFIG> <FILE>				Assemble EMS archive
+						Example: asmems "C:\\EM00.INI" "C:\\CDEMD.EMS"
+
+disems <FILE>					Disassemble Bio2 Beta EMS
+						Example: disems "C:\\CDEMD.EMS"
+
+createesp <DIR> <CONFIG>			Create ESP data for Bio2 RDT
+						Example: createesp "C:\\ESP Folder" "C:\\ROOM100\\room.ini"
+
+asmesp <CONFIG> <FILE>				Assemble contents of Bio2 ESP file
+						Example: asmesp "C:\\EFF00.INI" "C:\\EFF00.ESP"
+
+disesp <FILE>					Diassemble contents of Bio2 ESP file
+						Example: disesp "C:\\EFF00.ESP"
+
+asmitp <CONFIG> <FILE>				Assemble contents of Bio2 ITP file
+						Example: asmitp "C:\\ITEM00.INI" "C:\\DIE00.ITP"
+
+disitp <FILE>					Diassemble contents of Bio2 ITP file
+						Example: disitp "C:\\ITEM00.ITP"
+
+asmmsg <CONFIG> <FILE>				Assemble contents of Bio2 MSG archive file
+						Example: asmmsg "C:\\R100.INI" "C:\\R100.MSG"
+
+dismsg <FILE>					Diassemble contents of Bio2 MSG archive file
+						Example: dismsg "C:\\R100.MSG"
+
+asmpld <CONFIG> <FILE>				Assemble contents of Bio2 PLD file
+						Example: asmpld "C:\\PL00.INI" "C:\\PL00.PLD"
+
+displd <FILE>					Diassemble contents of Bio2 PLD file
+						Example: displd "C:\\PL00.PLD"
+
+asmscd <CONFIG> <FILE>				Assemble contents of Bio2 SCD file
+						Example: asmscd "C:\\MAIN00.CPP" "C:\\MAIN00.SCD"
+
+disscd <FILE>					Diassemble contents of Bio2 SCD file
+						Example: disscd "C:\\MAIN00.SCD"
+
+disscaex <FILE>					Convert Bio1/1.5 collision to Bio2 format
+						Example: disscaex "C:\\R100.PRI"
+
+disrdt <FILE>					Diassemble contents of Bio2 RDT file
+						Example: disrdt "C:\\ROOM100.RDT"
+
+asmrdt <CONFIG> <FILE>				Assemble contents of Bio2 RDT file
+						Example: asmrdt "C:\\ROOM100.INI"
+
+rdx <FLAG> <DIR> <ENCSTR>			Create STAGE.CDX file
+						Example: rdx 0 "C:\\BioDS\\asset\\Temp"
+						Example: rdx 1 "C:\\BioDS\\asset\\Temp" "Some String"
+
+pldx <DIR> <FILE>				Create PLD.CDX file
+						Example: pldx "C:\\BioDS\\asset\\Temp" "C:\\PLD.CDX"
+
+plwx <DIR> <PLD ID>				Create PLW.CDX file
+						Example: plwx "C:\\BioDS\\asset\\Temp" 0
+
+bgmx <DIR> <BGM TYPE>				Create BGM.CDX file
+						Example: bgmx "C:\\BioDS\\asset\\Temp" 0
+						Example: bgmx "C:\\BioDS\\asset\\Temp" 1

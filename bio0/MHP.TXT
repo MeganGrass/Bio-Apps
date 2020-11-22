@@ -1,0 +1,32 @@
+
+--------------
+Bio Zero
+MHP -> JPG
+
+MeganGrass
+The-Horror.com
+--------------
+
+Convert files with MHP extension to JPG format.
+
+This app has not been tested with files from the Bio Zero Trial Edition.
+
+
+---------
+USAGE #01
+---------
+
+Commandline is supported, for multiple MHP conversion at once.
+Example:
+
+MHP.EXE blood.mhp
+MHP.EXE type09.mhp
+MHP.EXE omk002.mhp
+
+
+---------
+USAGE #02
+---------
+
+Simply "Drag & Drop" a MHP file onto the executable. With this method,
+only one (1) MHP can be handled at once.

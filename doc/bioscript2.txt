@@ -1,0 +1,19 @@
+BioScript V2.0.0
+
+Utility to create custom cut-scenes, random events, enemy and door placement, etc.,
+for use with all versions of the following video games:
+
+Bio Hazard 2
+Resident Evil 2
+
+
+UPDATES:
+	V2.0.0 - Updated framework, Bio1.5 support removed, in-app text editing and compilation
+	V1.9.1 - Multiple bugfixes, preliminary if/else do/while support (Bio2, only)
+	V1.9.0 - Upgraded for Operating System compatibility, Bio 1.5 version support
+	V0.8.7.1 - Upgraded for Operating System compatibility
+	V0.8.7 - I/O optimizations, updated instruction syntax, more opcodes removed from WIP
+	V0.8.4 - Many bugfixes, optimizations, support for multi-line syntax
+	V0.8.0 - Comment handler, formatted output, more opcodes removed from WIP
+	V0.7.6 - Bugfixes for disassembly, multiple opcodes, misc.
+	V0.7.5 - Initial release

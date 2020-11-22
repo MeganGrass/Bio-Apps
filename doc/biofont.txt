@@ -1,0 +1,8 @@
+
+biofont V0.0.0.0
+
+Preliminary release
+
+English support, only.
+
+TXT file must be UTF-8
